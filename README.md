@@ -5,15 +5,15 @@
 ## Contents
 
 - [Demo](https://github.com/BoukariFatma/JSTestChartProject)
-- [ home.html]
+- [ home.html](#html)
 - [ data.json]
 - [js](#js)
   - [bootstrap.min.js](#bootstrap.min.js)
-  - [eco.js](#eco.js)
+  - [eco.js](#js)
   
 - [css](#css)
   - [bootstrap.min.css](#bootstrap.min.css)
-  - [style.css](#style.css)
+  - [style.css](#css)
   
 -[img]
   
@@ -98,3 +98,120 @@ $.getJSON("data.json", function(data) {
     chart.render();
     updateChart();
 });
+      
+#css
+      body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+.header-logo{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-xs-3 {
+    float: left;
+    width: 270px;
+    height: 270px;
+    margin: 5px 8px;
+}
+
+
+.imageright {
+    text-align: right;
+}
+
+
+
+
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  
+ 
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+ 
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    
+    color: white;
+    background-color: black;
+  }
+
+
+
